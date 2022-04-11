@@ -1,5 +1,5 @@
-import {uppercaseString, lowercaseString} from "./math_functions.js";
+import * as stringFunctions from "./math_functions.js";
 
 
-uppercaseString("hello");
-lowercaseString("WORLD!");
+stringFunctions.uppercaseString("hello");
+stringFunctions.lowercaseString("WORLD!");
