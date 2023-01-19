@@ -54,3 +54,7 @@ body {
 .established {
     font-style: italic;
 }
+
+.bottom-line {
+    margin-top: 25px;
+}
