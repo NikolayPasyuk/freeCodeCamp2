@@ -33,9 +33,11 @@
             conditions</a></label>
     </fieldset>
     <fieldset>
-        <label for="profile-picture"><input id="profile-picture" type="file"/>Upload a
+        <label for="profile-picture"><input id="profile-picture" name="profile-picture"
+                                            type="file"/>Upload a
             profile picture:</label>
-        <label for="age">Input your age (years): <input id="age" min="13" max="120"
+        <label for="age">Input your age (years): <input id="age" name="age" min="13"
+                                                        max="120"
                                                         type="number"/>
         </label>
         <label for="referrer">How did you hear about us?<select id="referrer">
@@ -46,7 +48,7 @@
             <option value="4">Other</option>
         </select>
         </label>
-        <label for="bio">Provide a bio:<textarea id="bio" rows="3"
+        <label for="bio">Provide a bio:<textarea id="bio" name="bio" rows="3"
                                                  cols="30"
                                                  placeholder="I like coding on the beach..."></textarea></label>
     </fieldset>
