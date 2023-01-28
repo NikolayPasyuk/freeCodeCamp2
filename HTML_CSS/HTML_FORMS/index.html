@@ -20,17 +20,23 @@
             <input pattern="[a-z0-5]{8,}" required type="password"
                    id="new-password"/></label>
     </fieldset>
-    <fieldset>
-        <label for="personal-account"><input id="personal-account" type="radio"
-                                             name="account-type"/> Personal
-            Account</label>
-        <label for="business-account"><input id="business-account" type="radio"
+    <fieldset class="inline">
+        <label for="personal-account"><input class="inline"
+                                             id="personal-account"
+                                             type="radio"
+                                             name="account-type"/>
+            Personal Account</label>
+        <label for="business-account"><input class="inline"
+                                             id="business-account"
+                                             type="radio"
                                              name="account-type"/> Business
             Account</label>
-        <label for="terms-and-conditions"><input id="terms-and-conditions" required
-                                                 type="checkbox"/> I accept the <a
-                href="https://www.freecodecamp.org/news/terms-of-service/">terms and
-            conditions</a></label>
+        <label for="terms-and-conditions"><input class="inline"
+                                                 id="terms-and-conditions"
+                                                 required
+                                                 type="checkbox"/> I accept the
+            <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and
+                conditions</a></label>
     </fieldset>
     <fieldset>
         <label for="profile-picture"><input id="profile-picture" name="profile-picture"
