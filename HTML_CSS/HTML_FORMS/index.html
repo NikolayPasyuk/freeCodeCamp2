@@ -33,10 +33,12 @@
             conditions</a></label>
     </fieldset>
     <fieldset>
-        <label><input type="file"/>Upload a profile picture:</label>
-        <label>Input your age (years): <input min="13" max="120" type="number"/>
+        <label for="profile-picture"><input id="profile-picture" type="file"/>Upload a
+            profile picture:</label>
+        <label for="age">Input your age (years): <input id="age" min="13" max="120"
+                                                        type="number"/>
         </label>
-        <label>How did you hear about us?<select>
+        <label for="referrer">How did you hear about us?<select id="referrer">
             <option value="">(select one)</option>
             <option value="1">freeCodeCamp News</option>
             <option value="2">freeCodeCamp YouTube Channel</option>
@@ -44,7 +46,7 @@
             <option value="4">Other</option>
         </select>
         </label>
-        <label>Provide a bio:<textarea></textarea></label>
+        <label for="bio">Provide a bio:<textarea id="bio"></textarea></label>
     </fieldset>
     <input type="submit" value="submit"/>
 </form>
