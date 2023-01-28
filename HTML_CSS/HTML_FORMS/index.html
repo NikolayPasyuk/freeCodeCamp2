@@ -21,9 +21,15 @@
                    id="new-password"/></label>
     </fieldset>
     <fieldset>
-        <label><input name="account-type" type="radio"/> Personal Account</label>
-        <label><input name="account-type" type="radio"/> Business Account</label>
-        <label><input required type="checkbox"/> I accept the terms and conditions</label>
+        <label for="personal-account"><input id="personal-account" name="account-type"
+                                             type="radio"/> Personal
+            Account</label>
+        <label for="business-account"><input id="business-account" name="account-type"
+                                             type="radio"/> Business
+            Account</label>
+        <label for="terms-and-conditions"><input id="terms-and-conditions" required
+                                                 type="checkbox"/> I accept the
+            terms and conditions</label>
     </fieldset>
     <fieldset></fieldset>
     <input type="submit" value="submit"/>
