@@ -26,6 +26,7 @@ header {
 h1 {
     color: #f1be32;
     font-size: min(5vw, 1.2em);
+    text-align: center;
 }
 
 nav {
@@ -55,6 +56,10 @@ nav > ul > li:hover {
 li > a {
     color: inherit;
     text-decoration: none;
+}
+
+main {
+    padding-top: 50px;
 }
 
 h1, h2 {
