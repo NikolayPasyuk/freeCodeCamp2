@@ -83,6 +83,11 @@ h2 {
     margin-top: 0;
 }
 
+.info {
+    padding: 60px 0 0 60px;
+}
+
+
 p::before {
     content: "Question #";
 }
