@@ -160,6 +160,12 @@ footer {
     justify-content: center;
 }
 
+footer,
+footer a {
+    color: #dfdfe2;
+}
+
+
 .sr-only {
     position: absolute;
     width: 1px;
