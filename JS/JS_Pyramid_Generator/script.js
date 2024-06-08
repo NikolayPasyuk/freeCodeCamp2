@@ -4,6 +4,7 @@ const rows = [];
 
 function padRow(name) {
   return character + name;
+  const test = "Testing"
 }
 
 const call = padRow("Nick");
