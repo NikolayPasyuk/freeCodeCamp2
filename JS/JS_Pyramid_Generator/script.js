@@ -3,11 +3,12 @@ const character = "#";
 const rows = [];
 
 function padRow(rowNumber, rowCount) {
-  return " " + character.repeat(rowNumber) + " ";
+  return " ".repeat(rowCount - rowNumber) + character.repeat(rowNumber) +
+    " ".repeat(rowCount - rowNumber);
 }
 
 for (let i = 0; i < count; i = i + 1) {
-  rows.push(padRow(i + 1, count))
+  rows.push(padRow(i + 1, count));
 }
 
 let result = ""
