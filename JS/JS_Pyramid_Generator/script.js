@@ -7,7 +7,7 @@ function padRow(rowNumber, rowCount) {
     + " ".repeat(rowCount - rowNumber);
 }
 
-for (let i = 0; i < count; i++) {
+for (let i = 1; i < count; i++) {
   rows.push(padRow(i + 1, count));
 }
 
