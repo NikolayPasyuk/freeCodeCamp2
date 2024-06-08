@@ -2,7 +2,7 @@ const count = 8;
 const character = "#";
 const rows = [];
 
-function padRow() {
+function padRow(rowNumber, rowCount) {
 
 }
 
