@@ -3,7 +3,7 @@ const character = "#";
 const rows = [];
 
 function padRow(name) {
-  return name;
+  return character + name;
 }
 
 const call = padRow("Nick");
