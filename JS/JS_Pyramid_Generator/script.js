@@ -3,8 +3,7 @@ const character = "#";
 const rows = [];
 
 function padRow() {
-  const test = "Testing"
-  return test;
+
 }
 
 const call = padRow();
