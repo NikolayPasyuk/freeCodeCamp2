@@ -14,7 +14,7 @@ for (let i = 1; i <= count; i++) {
 }
 */
 
-if (false) {
+if ('false') {
   console.log("Condition is true")
 }
 
