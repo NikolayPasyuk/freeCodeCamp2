@@ -8,11 +8,10 @@ function padRow(rowNumber, rowCount) {
 }
 
 // TODO: Change this to a while loop
-/*
+
 for (let i = 1; i <= count; i++) {
   rows.push(padRow(i, count));
 }
-*/
 
 /*
 while (rows.length < count) {
