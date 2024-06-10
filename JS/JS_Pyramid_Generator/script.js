@@ -11,6 +11,9 @@ function padRow(rowNumber, rowCount) {
 // TODO: Change this to a while loop
 
 for (let i = 1; i <= count; i++) {
+  if (inverted) {
+
+  }
   rows.unshift(padRow(i, count));
 }
 
