@@ -1,6 +1,7 @@
 const count = 8;
 const character = "#";
 const rows = [];
+let inverted = true;
 
 function padRow(rowNumber, rowCount) {
   return " ".repeat(rowCount - rowNumber) + character.repeat(2 * rowNumber - 1)
