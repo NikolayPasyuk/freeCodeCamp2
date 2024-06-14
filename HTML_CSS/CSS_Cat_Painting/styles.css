@@ -7,7 +7,7 @@ body {
 }
 
 .cat-head {
-    position: absolute;
+    position: fixed;
     top: 300px;
     left: 400px;
     background: linear-gradient(#5e5e5e 85%, #45454f 100%);
