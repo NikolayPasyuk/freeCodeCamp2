@@ -154,5 +154,5 @@ function attack() {
 }
 
 function dodge() {
-
+  health -= monsters[fighting].level
 }
