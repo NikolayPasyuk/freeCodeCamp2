@@ -189,6 +189,10 @@ function attack() {
       defeatMonster();
     }
   }
+
+  if (Math.random() <= .1) {
+
+  }
 }
 
 function getMonsterAttackValue(level) {
