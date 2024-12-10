@@ -86,6 +86,10 @@ let userData = {
   songCurrentTime: 0,
 };
 
+const playSong = (id) => {
+
+}
+
 const renderSongs = (array) => {
   const songsHTML = array.map((song) => {
     return `<li id="song-${song.id}" class="playlist-song">
