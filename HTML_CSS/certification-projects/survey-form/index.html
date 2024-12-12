@@ -17,58 +17,65 @@
             opinions.</p>
     </header>
 
-    <form id="survey-form">
-        <label id="name-label" for="name">Your Name:</label>
-        <input id="name" type="text" placeholder="Enter your name" required>
+    <section class="form-section">
+        <form id="survey-form">
+            <label id="name-label" for="name">Your Name:</label>
+            <input id="name" type="text" placeholder="Enter your name" required>
 
-        <label id="email-label" for="email">Your Email:</label>
-        <input id="email" type="email" placeholder="Enter your email" required>
+            <label id="email-label" for="email">Your Email:</label>
+            <input id="email" type="email" placeholder="Enter your email" required>
 
-        <label id="number-label" for="number">Your Age:</label>
-        <input type="number" id="number" placeholder="Enter your age" required min="18"
-               max="100">
+            <label id="number-label" for="number">Your Age:</label>
+            <input type="number" id="number" placeholder="Enter your age" required
+                   min="18"
+                   max="100">
 
-        <label for="dropdown">Select your favorite programming language:</label>
-        <select name="dropdown" id="dropdown" required>
-            <option value="javascript">JavaScript</option>
-            <option value="react">React</option>
-        </select>
+            <label for="dropdown">Select your favorite programming language:</label>
+            <select name="dropdown" id="dropdown" required>
+                <option value="javascript">JavaScript</option>
+                <option value="react">React</option>
+            </select>
 
-        <label for="experience">Your Experience Level with Programming:</label>
-        <div id="experience">
-            <input type="radio" id="beginner" name="experience" value="beginner" required>
-            <label for="beginner">Beginner</label>
+            <label for="experience">Your Experience Level with Programming:</label>
+            <div id="experience">
+                <input type="radio" id="beginner" name="experience" value="beginner"
+                       required>
+                <label for="beginner">Beginner</label>
 
-            <input type="radio" id="intermediate" name="experience" value="intermediate"
-                   required>
-            <label for="intermediate">Intermediate</label>
+                <input type="radio" id="intermediate" name="experience"
+                       value="intermediate"
+                       required>
+                <label for="intermediate">Intermediate</label>
 
-            <input type="radio" id="advanced" name="experience" value="advanced" required>
-            <label for="advanced">Advanced</label>
-        </div>
+                <input type="radio" id="advanced" name="experience" value="advanced"
+                       required>
+                <label for="advanced">Advanced</label>
+            </div>
 
-        <div id="checkbox-container">
-            <label for="checkbox1">I like programming:</label>
-            <input type="checkbox" id="checkbox1" name="programming"
-                   value="like_programming">
+            <div id="checkbox-container">
+                <label for="checkbox1">I like programming:</label>
+                <input type="checkbox" id="checkbox1" name="programming"
+                       value="like_programming">
 
-            <label for="checkbox2">I like design:</label>
-            <input type="checkbox" id="checkbox2" name="design" value="like_design">
+                <label for="checkbox2">I like design:</label>
+                <input type="checkbox" id="checkbox2" name="design" value="like_design">
 
-            <label for="checkbox3">I like teaching:</label>
-            <input type="checkbox" id="checkbox3" name="teaching" value="like_teaching">
-        </div>
+                <label for="checkbox3">I like teaching:</label>
+                <input type="checkbox" id="checkbox3" name="teaching"
+                       value="like_teaching">
+            </div>
 
-        <div id="comment-container">
-            <label for="comments">Additional Comments:</label>
-            <textarea name="comments" id="comments" cols="50" rows="4"
-                      placeholder="Write your comments here..."></textarea>
-        </div>
+            <div id="comment-container">
+                <label for="comments">Additional Comments:</label>
+                <textarea name="comments" id="comments" cols="50" rows="4"
+                          placeholder="Write your comments here..."></textarea>
+            </div>
 
-        <div id="submit-container">
-            <button id="submit" type="submit">Submit</button>
-        </div>
-    </form>
+            <div id="submit-container">
+                <button id="submit" type="submit">Submit</button>
+            </div>
+        </form>
+    </section>
 </div>
 </body>
 </html>
