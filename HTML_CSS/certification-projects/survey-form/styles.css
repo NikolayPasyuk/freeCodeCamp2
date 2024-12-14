@@ -71,6 +71,13 @@ textarea:focus {
     outline: none;
 }
 
+#experience label,
+.checkbox-container label {
+    font-weight: normal;
+    margin-left: 5px;
+    color: #333333;
+}
+
 textarea {
     resize: none;
 }
