@@ -99,3 +99,7 @@ button#submit {
     width: 100%;
     box-sizing: border-box;
 }
+
+button#submit:hover {
+    background-color: #0056b3;
+}
