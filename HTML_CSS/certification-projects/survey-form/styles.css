@@ -78,6 +78,11 @@ textarea:focus {
     color: #333333;
 }
 
+input[type='radio'],
+input[type='checkbox'] {
+    margin-right: 5px;
+}
+
 textarea {
     resize: none;
 }
