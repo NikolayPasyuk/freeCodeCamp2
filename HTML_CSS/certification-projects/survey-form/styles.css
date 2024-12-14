@@ -34,3 +34,9 @@ body {
     font-size: 1em;
     color: #666666;
 }
+
+#survey-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
