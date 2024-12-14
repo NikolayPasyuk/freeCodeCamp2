@@ -29,3 +29,8 @@ body {
     margin-bottom: 10px;
     color: #333333;;
 }
+
+.form-header p {
+    font-size: 1em;
+    color: #666666;
+}
