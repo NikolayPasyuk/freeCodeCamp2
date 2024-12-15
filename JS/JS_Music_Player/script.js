@@ -173,9 +173,13 @@ const renderSongs = (array) => {
   playlistSongs.innerHTML = songsHTML;
 };
 
+const setPlayButtonAccessibleText = () => {
+
+};
+
 const getCurrentSongIndex = () => {
   return userData?.songs.indexOf(userData?.currentSong)
-}
+};
 
 playButton.addEventListener('click', () => {
   if (userData?.currentSong === null) {
@@ -183,7 +187,7 @@ playButton.addEventListener('click', () => {
   } else {
     playSong(userData?.currentSong.id);
   }
-})
+});
 
 pauseButton.addEventListener('click', pauseSong);
 
