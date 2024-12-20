@@ -45,3 +45,9 @@ main {
     font-style: italic;
     color: #7f8c8d;
 }
+
+#tribute-info {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    text-align: justify;
+}
