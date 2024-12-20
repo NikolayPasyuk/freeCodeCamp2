@@ -88,3 +88,6 @@ h2 {
     transition: background 0.3s;
 }
 
+#tribute-link:hover {
+    background: #3498db;
+}
