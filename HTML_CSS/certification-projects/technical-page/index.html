@@ -12,36 +12,48 @@
     <section class="main-section" id="Introduction_to_React">
         <header>Introduction to React</header>
         <p>React is a popular JavaScript library for building user interfaces.</p>
-        <p>It allows developers to create reusable UI components.</p>
+        <p>You can create components using <code>React.createElement</code> or JSX syntax.
+        </p>
     </section>
     <section class="main-section" id="Understanding_JSX">
         <header>Understanding JSX</header>
-        <p>JSX stands for JavaScript XML and is a syntax extension for JavaScript.</p>
-        <p>It allows you to write HTML elements directly in your JavaScript code.</p>
+        <p>JSX allows you to write HTML elements in JavaScript code.</p>
+        <p>An example of JSX is <code>{'<h1>Hello, World!</h1>'}</code>.</p>
+        <p>JSX makes your code more readable and easier to write.</p>
     </section>
     <section class="main-section" id="Working_with_Components">
         <header>Working with Components</header>
         <p>Components are the building blocks of a React application.</p>
-        <p>They can be functional or class-based.</p>
+        <p>Functional components are defined as <code>const Component = () => {...}</code>.
+        </p>
+        <p>Class components use <code>extends React.Component</code> syntax.</p>
     </section>
     <section class="main-section" id="Props_and_State">
         <header>Props and State</header>
-        <p>Props are used to pass data from parent to child components.</p>
-        <p>State is used to manage the dynamic data within a component.</p>
+        <p>Props are passed as attributes: <code>{'
+            <Component propName="value"/>
+            '}</code>.
+        </p>
+        <p>State is managed internally by the component and can be updated.</p>
     </section>
     <section class="main-section" id="Lifecycle_Methods">
         <header>Lifecycle Methods</header>
-        <p>Lifecycle methods are special methods in class components.</p>
+        <p>Use <code>componentDidMount</code> to run code after the component mounts.</p>
+        <p>Other methods include <code>componentDidUpdate</code> and <code>componentWillUnmount</code>.
+        </p>
     </section>
     <section class="main-section" id="Using_React_Hooks">
         <header>Using React Hooks</header>
-        <p>Hooks allow you to use state and lifecycle features in functional
+        <p>The <code>useState</code> hook allows you to add state to functional
             components.</p>
+        <p>Another important hook is <code>useEffect</code> for side effects.</p>
     </section>
     <section class="main-section" id="Context_API">
         <header>Context API</header>
         <p>The Context API is used to pass data through the component tree without
             props.</p>
+        <p>Access context data using <code>useContext</code>.</p>
+        <p>Combine Context API with hooks for efficient state management.</p>
     </section>
 </main>
 </body>
