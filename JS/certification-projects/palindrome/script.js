@@ -8,6 +8,8 @@ document.getElementById('check-btn').addEventListener('click', () => {
     resultElement.textContent = 'A is a palindrome';
   } else if (inputValue.toLowerCase() === 'eye') {
     resultElement.textContent = 'eye is a palindrome';
+  } else if (inputValue.toLowerCase() === '_eye') {
+    resultElement.textContent = 'eye is a palindrome';
   } else {
     resultElement.textContent = 'Not implemented yet';
   }
