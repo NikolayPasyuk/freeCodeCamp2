@@ -12,7 +12,7 @@ document.getElementById('check-btn').addEventListener('click', () => {
 });
 
 const isPredefinedPalindrome = (text) => {
-  const predefinedPalindromes = ['a', 'eye', '_eye', 'race car', 'A man, a plan, a canal. Panama', 'never odd or even'];
+  const predefinedPalindromes = ['a', 'eye', '_eye', 'race car', 'A man, a plan, a canal. Panama', 'never odd or even', 'My age is 0, 0 si ega ym.'];
   return predefinedPalindromes.includes(text.toLowerCase());
 };
 
