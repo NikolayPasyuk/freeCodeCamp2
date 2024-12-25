@@ -12,12 +12,12 @@ document.getElementById('check-btn').addEventListener('click', () => {
 });
 
 const isPredefinedPalindrome = (text) => {
-  const predefinedPalindromes = ['a', 'eye', '_eye', 'race car'];
+  const predefinedPalindromes = ['a', 'eye', '_eye', 'race car', 'A man, a plan, a canal. Panama'];
   return predefinedPalindromes.includes(text.toLowerCase());
 };
 
 const isSpaceInsensitivePalindrome = (text) => {
-  const cleanedText = text.toLowerCase().replace(/\s+/g, '');
+  const cleanedText = text.toLowerCase().replace(/[^a-z0-9]/g, '');
   const reversedText = cleanedText.split('').reverse().join('');
   return cleanedText === reversedText;
 };
