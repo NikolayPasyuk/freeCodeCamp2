@@ -7,7 +7,7 @@ document.getElementById('check-btn').addEventListener('click', () => {
   } else if (isPredefinedPalindrome(inputValue) || isSpaceInsensitivePalindrome(inputValue)) {
     resultElement.textContent = `${inputValue} is a palindrome`;
   } else {
-    resultElement.textContent = 'Not implemented yet';
+    resultElement.textContent = `${inputValue} is not a palindrome`;
   }
 });
 
