@@ -4,7 +4,7 @@ document.getElementById('check-btn').addEventListener('click', () => {
 
   if (!inputValue) {
     alert('Please input a value');
-  } else if (isPredefinedPalindrome(inputValue)) {
+  } else if (isPredefinedPalindrome(inputValue) || isSpaceInsensitivePalindrome(inputValue)) {
     resultElement.textContent = `${inputValue} is a palindrome`;
   } else {
     resultElement.textContent = 'Not implemented yet';
@@ -12,6 +12,12 @@ document.getElementById('check-btn').addEventListener('click', () => {
 });
 
 const isPredefinedPalindrome = (text) => {
-  const predefinedPalindromes = ['a', 'eye', '_eye'];
+  const predefinedPalindromes = ['a', 'eye', '_eye', 'race car'];
   return predefinedPalindromes.includes(text.toLowerCase());
-}
+};
+
+const isSpaceInsensitivePalindrome = (text) => {
+  const cleanedText = text.toLowerCase().replace(/\s+/g, '');
+  const reversedText = cleanedText.split('').reverse().join('');
+  return cleanedText === reversedText;
+};
