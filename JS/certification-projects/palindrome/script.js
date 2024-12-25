@@ -3,14 +3,15 @@ document.getElementById('check-btn').addEventListener('click', () => {
   const resultElement = document.getElementById('result');
 
   if (!inputValue) {
-    alert('Please input a value')
-  } else if (inputValue.toLowerCase() === 'a') {
-    resultElement.textContent = 'A is a palindrome';
-  } else if (inputValue.toLowerCase() === 'eye') {
-    resultElement.textContent = 'eye is a palindrome';
-  } else if (inputValue.toLowerCase() === '_eye') {
-    resultElement.textContent = 'eye is a palindrome';
+    alert('Please input a value');
+  } else if (isPredefinedPalindrome(inputValue)) {
+    resultElement.textContent = `${inputValue} is a palindrome`;
   } else {
     resultElement.textContent = 'Not implemented yet';
   }
 });
+
+const isPredefinedPalindrome = (text) => {
+  const predefinedPalindromes = ['a', 'eye', '_eye'];
+  return predefinedPalindromes.includes(text.toLowerCase());
+}
