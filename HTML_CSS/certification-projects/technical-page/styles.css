@@ -62,3 +62,8 @@ code {
     border-radius: 4px;
     font-family: monospace;
 }
+
+ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}
