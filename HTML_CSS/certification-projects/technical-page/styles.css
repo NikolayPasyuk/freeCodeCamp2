@@ -67,3 +67,12 @@ ul {
     padding-left: 20px;
     list-style-type: disc;
 }
+
+@media (max-width: 768px) {
+    #navbar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        box-shadow: none;
+    }
+}
