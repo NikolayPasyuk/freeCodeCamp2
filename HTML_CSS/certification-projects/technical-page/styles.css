@@ -35,3 +35,9 @@ body {
 .nav-link:hover {
     text-decoration: underline;
 }
+
+#main-doc {
+    margin-left: 290px;
+    padding: 20px;
+    flex-grow: 1;
+}
