@@ -41,3 +41,7 @@ body {
     padding: 20px;
     flex-grow: 1;
 }
+
+.main-section {
+    margin-bottom: 40px;
+}
