@@ -31,3 +31,7 @@ body {
     display: block;
     margin: 10px 0;
 }
+
+.nav-link:hover {
+    text-decoration: underline;
+}
