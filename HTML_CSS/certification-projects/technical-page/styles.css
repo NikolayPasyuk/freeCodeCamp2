@@ -24,3 +24,10 @@ body {
     font-size: 1.5rem;
     margin-bottom: 20px;
 }
+
+.nav-link {
+    color: #61dafb;
+    text-decoration: none;
+    display: block;
+    margin: 10px 0;
+}
