@@ -45,3 +45,9 @@ body {
 .main-section {
     margin-bottom: 40px;
 }
+
+.main-section header {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #282c34;
+}
