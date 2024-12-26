@@ -80,4 +80,9 @@ ul {
         margin-left: 0;
         padding-top: 10px;
     }
+
+    #nav-link {
+        display: inline-block;
+        margin: 5px;
+    }
 }
