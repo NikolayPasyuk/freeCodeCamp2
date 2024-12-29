@@ -12,4 +12,7 @@ const formattedDate = `${day}-${month}-${year}`;
 currentDateParagraph.textContent = formattedDate;
 
 dateOptionsSelectElement.addEventListener('change', () => {
+  switch (dateOptionsSelectElement.value) {
+
+  }
 });
