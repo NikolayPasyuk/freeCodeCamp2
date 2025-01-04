@@ -40,6 +40,6 @@ teamName.textContent = team;
 worldCupYear.textContent = year;
 headCoach.textContent = coachName;
 
-const setPlayerCards = () => {
+const setPlayerCards = (arr = players) => {
 
 }
