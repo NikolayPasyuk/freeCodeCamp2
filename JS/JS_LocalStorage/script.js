@@ -44,5 +44,8 @@ if (dataArrIndex === -1) {
 
 taskData.forEach(({id, title, date, description}) => {
   tasksContainer.innerHTML += `
-  <div class="task" id='${id}'></div>`
+  <div class="task" id='${id}'>
+  <p><strong>Title:</strong> ${title}</p>
+</div>
+`
 });
