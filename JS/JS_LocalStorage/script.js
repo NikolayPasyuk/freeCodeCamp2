@@ -30,6 +30,8 @@ taskForm.addEventListener('submit', (e) => {
 
   const dataArrIndex = taskData.findIndex((item) => item.id === currentTask.id);
 
-  const taskObj = {};
+  const taskObj = {
+    id: titleInput,
+  };
   console.log(taskObj);
 });
