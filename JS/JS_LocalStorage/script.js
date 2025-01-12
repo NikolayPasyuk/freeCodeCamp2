@@ -14,7 +14,11 @@ const taskData = [];
 let currentTask = {};
 
 const reset = () => {
-
+  titleInput.value = ''
+  dateInput.value = ''
+  descriptionInput.value = ''
+  taskForm.classList.toggle('hidden');
+  currentTask = {};
 }
 
 openTaskFormBtn.addEventListener('click', () =>
