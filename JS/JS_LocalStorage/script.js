@@ -52,4 +52,5 @@ taskData.forEach(({id, title, date, description}) => {
   <button type="button" class="btn">Delete</button>
 </div>
 `
+  taskForm.classList.toggle('hidden');
 });
